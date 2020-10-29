@@ -1,0 +1,110 @@
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    background-image: url(https://colorlib.com/etc/bforms/colorlib-booking-1/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(33, 88, 151, 0.6);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    width: 61.5vw;
+}
+aside{
+    color: white;
+    padding: 4.8em 0 5em 7.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.2em;
+    font-weight: 700; 
+    margin-bottom: 0.2em;
+    line-height: 1.2;
+}
+aside>p{
+    font-weight: 300;
+    line-height: 1.5;
+}
+fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 3em 1.5em;
+    min-width: 23em;
+    color:#3e485c;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.2em;
+}
+li>label{
+    font-weight: 600;
+    margin: 0 0.3em 0.4em 0.3em;
+    font-size: 0.9em;
+}
+li>input, li >select{
+    background-color: #ebecee;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em;
+}
+li:nth-of-type(3){
+    margin-left: 6%;
+}
+li:nth-of-type(2) > input{
+    margin-right: 6%;
+}
+li:nth-of-type(4){
+    margin-right: 11%;
+}
+li:nth-of-type(5){
+    margin-right: 6%;
+}
+li:nth-of-type(6){
+    margin-left: 5%;
+}
+.full{
+    flex-grow:99999;
+    flex-basis: 100%;
+}
+.half{
+    flex-basis: 38%;
+    flex-grow: 2;
+}
+.third{
+    flex-basis: 26%;
+    flex-grow: 1;
+}
+button{
+    font-weight: 600;
+   background-color: #3171db; 
+   color: white;
+   border-radius: 5px;
+   padding: 1em 1.7em;
+   border: none;
+}
